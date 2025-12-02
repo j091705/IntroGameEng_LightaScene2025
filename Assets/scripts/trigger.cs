@@ -1,16 +1,14 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
-public class trigger : MonoBehaviour
+public class TriggerTimeline : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public PlayableDirector timeline;
+
+    void OnTriggerEnter(Collider other)
     {
-        
+        timeline.Play();
+        Destroy(this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
