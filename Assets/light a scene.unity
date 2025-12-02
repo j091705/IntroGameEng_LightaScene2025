@@ -9899,8 +9899,6 @@ Transform:
   - {fileID: 1263678774}
   - {fileID: 1441096372}
   - {fileID: 749826112}
-  - {fileID: 2013389492}
-  - {fileID: 1852041893}
   - {fileID: 1010571379}
   - {fileID: 1148651073}
   - {fileID: 1017158838}
@@ -9978,6 +9976,8 @@ Transform:
   - {fileID: 592690833}
   - {fileID: 874617282}
   - {fileID: 1975607020}
+  - {fileID: 1852041893}
+  - {fileID: 2013389492}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &479684854
@@ -17838,6 +17838,80 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1001 &857088400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -43.397396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000014305115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.894077
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519321484099935820, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+        type: 3}
+      propertyPath: m_Name
+      value: ShirtlessZombie_FREE_URP
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d99d47e6e48a714c895368aed8a8fa6, type: 3}
+--- !u!1 &857088401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7519321484099935820, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+    type: 3}
+  m_PrefabInstance: {fileID: 857088400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &857573469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29008,6 +29082,12 @@ PlayableDirector:
     value: {fileID: 1975607023}
   - key: {fileID: 2986674221253908654, guid: 2ec7ba539d473f643b34c4d6b71bf695, type: 2}
     value: {fileID: 1072100123}
+  - key: {fileID: 8450923003809750437, guid: 2ec7ba539d473f643b34c4d6b71bf695, type: 2}
+    value: {fileID: 2013389495}
+  - key: {fileID: -8237743973547039964, guid: 2ec7ba539d473f643b34c4d6b71bf695, type: 2}
+    value: {fileID: 1852041896}
+  - key: {fileID: 6682357610754825557, guid: 2ec7ba539d473f643b34c4d6b71bf695, type: 2}
+    value: {fileID: 857088401}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1416717987
@@ -38713,6 +38793,7 @@ GameObject:
   - component: {fileID: 1852041893}
   - component: {fileID: 1852041895}
   - component: {fileID: 1852041894}
+  - component: {fileID: 1852041896}
   m_Layer: 0
   m_Name: Point Light (43)
   m_TagString: Untagged
@@ -38823,6 +38904,28 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!95 &1852041896
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852041892}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1861126128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41718,6 +41821,7 @@ GameObject:
   - component: {fileID: 2013389492}
   - component: {fileID: 2013389494}
   - component: {fileID: 2013389493}
+  - component: {fileID: 2013389495}
   m_Layer: 0
   m_Name: Point Light (38)
   m_TagString: Untagged
@@ -41828,6 +41932,28 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!95 &2013389495
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013389491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2017677075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46338,3 +46464,4 @@ SceneRoots:
   - {fileID: 1005607923}
   - {fileID: 1416717987}
   - {fileID: 1072100124}
+  - {fileID: 857088400}
